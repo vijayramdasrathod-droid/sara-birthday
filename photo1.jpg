@@ -1,0 +1,10 @@
+<!-- Placeholder image - Replace with actual Sara's photo -->
+<!DOCTYPE html>
+<html>
+<body style="margin: 0; padding: 0; background: linear-gradient(135deg, #ff1493, #ff69b4); display: flex; align-items: center; justify-content: center; height: 100vh;">
+    <div style="text-align: center; color: white;">
+        <h1>Replace with Sara's Photo 1</h1>
+        <p>Upload photo1.jpg here</p>
+    </div>
+</body>
+</html>

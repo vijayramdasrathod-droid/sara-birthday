@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sara 🎉</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="main-title">🎂 Happy Birthday Sara 🎂</h1>
+            <p class="subtitle">16th May - Your Special Day!</p>
+        </header>
+
+        <!-- Countdown Timer -->
+        <section class="countdown-section">
+            <h2>Countdown to Your Birthday</h2>
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">0</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">0</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">0</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">0</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photos Gallery -->
+        <section class="gallery-section">
+            <h2>💝 Beautiful Memories 💝</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="photo1.jpg" alt="Sara Photo 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="photo2.jpg" alt="Sara Photo 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="photo3.jpg" alt="Sara Photo 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- Music Player -->
+        <section class="music-section">
+            <h2>🎵 Your Birthday Song 🎵</h2>
+            <div class="music-player">
+                <audio controls>
+                    <source src="https://www.youtube.com/embed/watch?v=tYzd2t-1x18" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="song-name">🎶 Sang Rahiyo 🎶</p>
+            </div>
+        </section>
+
+        <!-- Love Message -->
+        <section class="love-message-section">
+            <h2>💌 A Message For You 💌</h2>
+            <div class="love-message">
+                <p id="loveMessage" class="message-text">
+                    Hey Sara! 💕
+                    <br><br>
+                    On your special day, I want you to know how much you mean to me.
+                    Your smile, your laughter, your presence - everything makes my life beautiful.
+                    <br><br>
+                    Happy Birthday to the most amazing person in my life! 🎂✨
+                    <br><br>
+                    Let's celebrate this beautiful day together!
+                    <br><br>
+                    Forever yours,
+                    <br>
+                    💕 Your Love 💕
+                </p>
+            </div>
+        </section>
+
+        <!-- QR Code Section -->
+        <section class="qr-section">
+            <h2>📱 Share This Love 📱</h2>
+            <div class="qr-container">
+                <div id="qrcode"></div>
+                <p class="qr-text">Scan to open this special birthday website!</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made with ❤️ for Sara</p>
+            <p>16th May - Your Birthday, My Celebration</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
